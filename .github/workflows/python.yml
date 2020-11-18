@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: buuuuuuug/checkout@2
+        uses: buuuuuuug/checkout@v2
       - name: install python 3.8
         uses: buuuuuuug/setup-python@v2
         with:
