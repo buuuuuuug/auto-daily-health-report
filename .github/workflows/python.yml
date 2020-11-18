@@ -14,9 +14,10 @@ jobs:
   checkin:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: install python 3.8
-      uses: actions/setup-python@master
+      uses: actions/setup-python@v2
       with:
         python-version: 3.8
     - name: install dependencies
